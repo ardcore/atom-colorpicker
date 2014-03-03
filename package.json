@@ -1,0 +1,30 @@
+{
+  "name": "colorpicker",
+  "main": "./lib/colorpicker",
+  "version": "0.0.2",
+  "private": true,
+  "description": "Colorpicker package for atom.",
+  "keywords": ["colorpicker", "color wheel", "css", "frontend", "ui"],
+  "homepage": "https://github.com/ardcore/atom-colorpicker",
+  "bugs": { "url": "https://github.com/ardcore/atom-colorpicker/issues",
+            "email": "szymon.pilkowski@gmail.com" },
+  "author": {
+    "name": "Szymon Pilkowski",
+    "email": "szymon.pilkowski@gmail.com",
+    "url": "http://twitter.com/ard"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "http://github.com/ardcore/atom-colorpicker.git"
+  },
+  "activationEvents": ["colorpicker:show"],
+  "repository": "https://github.com/atom/colorpicker",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "onecolor": ">=2.4.0",
+    "colorjoe": ">=0.9.2"
+  }
+}
