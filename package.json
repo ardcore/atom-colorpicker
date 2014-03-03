@@ -13,12 +13,8 @@
     "email": "szymon.pilkowski@gmail.com",
     "url": "http://twitter.com/ard"
   },
-  "repository": {
-    "type" : "git",
-    "url" : "https://github.com/ardcore/atom-colorpicker.git"
-  },
   "activationEvents": ["colorpicker:show"],
-  "repository": "https://github.com/atom/colorpicker",
+  "repository": "https://github.com/ardcore/atom-colorpicker.git",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
